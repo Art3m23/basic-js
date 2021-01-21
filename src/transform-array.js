@@ -1,7 +1,7 @@
 module.exports = function transform(arr) {
   let newArr = []
   if (!Array.isArray(arr)) {
-    throw new Error();
+    throw  Error
   }
   else{
   for(let i=0;i<arr.length;i++) { 
